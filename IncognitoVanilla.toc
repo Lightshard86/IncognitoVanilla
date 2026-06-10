@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: IncognitoVanilla
+## Notes: Set Char name with /inc name yourname
+## Author: Phil +  ChatGPT
+## Version: 1.0
+## SavedVariables: IncognitoVanillaDB
+
+IncognitoVanilla.lua
