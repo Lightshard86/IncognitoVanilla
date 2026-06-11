@@ -27,6 +27,12 @@ function SendChatMessage(msg, chatType, language, channel)
         and not string.find(msg, "^cast ")
         and not string.find(msg, "^#showtooltip")
         and not string.find(msg, "^set")
+        and not string.find(msg, "^reset")
+        and not string.find(msg, "^hello")
+        and not string.find(msg, "^joke")
+        and not string.find(msg, "^cancel")
+        and not string.find(msg, "^list")
+        and not string.find(msg, "^dispel")
         and not string.find(msg, "^deny ") then
 
             local prefix = "|cffff0000[|r|cffffcc00" .. GetMainName() .. "|r|cffff0000]|r"
